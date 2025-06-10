@@ -26,11 +26,6 @@ public class CodeDemonCLI {
                     System.out.println("Exiting CodeDemon. Thank you!");
                     return;
                 }
-                case 6 -> {
-                    System.out.println("Consultant profiles count: " + consultantProfiles.size());
-                    System.out.println("Job descriptions count: " + jobDescriptions.size());
-                    return;
-                }
                 default -> System.out.println("Invalid choice. Please try again.");
             }
         }
@@ -47,7 +42,6 @@ public class CodeDemonCLI {
         System.out.println("3. View Matching Results & Rankings");
         System.out.println("4. Communication Dashboard");
         System.out.println("5. Exit");
-        System.out.println("6. SizeCheck");
     }
 
     static void readFile(String path) {
